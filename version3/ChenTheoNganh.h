@@ -18,17 +18,17 @@ void ChenTheoNganh(CauTrucTroNganh Nganh[SL_Nganh])
 	}
 	else if(strcmp(TenNganh, "CNTT") == 0)
 	{
-		char a[KT_Nganh] = "KHMT"; 
+		char a[KT_Nganh] = "CNTT"; 
 		ChenNganh(&Nganh[1], a); 
 	}
 	else if(strcmp(TenNganh, "ATTT") == 0)
 	{
-		char a[KT_Nganh] = "KHMT"; 
+		char a[KT_Nganh] = "ATTT"; 
 		ChenNganh(&Nganh[2], a); 
 	}
 	else if(strcmp(TenNganh, "KTMT") == 0)
 	{
-		char a[KT_Nganh] = "KHMT"; 
+		char a[KT_Nganh] = "KTMT"; 
 		ChenNganh(&Nganh[3], a); 
 	}	
 	return;
