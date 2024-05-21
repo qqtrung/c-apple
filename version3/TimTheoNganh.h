@@ -54,26 +54,26 @@ void InMinGpa(float min, CauTrucTroNganh* Nganh)
 			p = true; 
 			int khoang_trang_TenNganh = 3; 
 			int khoang_trang_TenSV = 3; 
-        	int khoang_trang_Tuoi = 4; 
-        	int khoang_trang_Gpa = 3;
+        		int khoang_trang_Tuoi = 4; 
+        		int khoang_trang_Gpa = 3;
 
-        	printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
+        		printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
 
-               khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
-               11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
+              		khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
+               		11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
 
-               khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
-               25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
+              		khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
+               		25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
 
-               khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
-               					   (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
-               12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
-               							(ConTro->Tuoi < 100 ? 2 : 3)), "", 
+               		khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
+               				    (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
+               		12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
+               					 (ConTro->Tuoi < 100 ? 2 : 3)), "", 
 
-        	   khoang_trang_Gpa + 3, ConTro->Gpa,
-        	   khoang_trang_Gpa, ""); 
+        	   	khoang_trang_Gpa + 3, ConTro->Gpa,
+        	   	khoang_trang_Gpa, ""); 
               
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    			printf("+-----------+-------------------------+------------+---------+\n");
 
 		}
 		ConTro = ConTro->Next;
@@ -82,7 +82,7 @@ void InMinGpa(float min, CauTrucTroNganh* Nganh)
 	if(p == false)
 	{
 		printf("|   NULL    |           NULL          |    NULL    |   NULL  |\n"); 
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    		printf("+-----------+-------------------------+------------+---------+\n");
 	}
 	return; 
 }
@@ -115,27 +115,27 @@ void InMaxGpa(float max, CauTrucTroNganh* Nganh)
 			p = true; 
 			int khoang_trang_TenNganh = 3; 
 			int khoang_trang_TenSV = 3; 
-        	int khoang_trang_Tuoi = 4; 
-        	int khoang_trang_Gpa = 3;
+        		int khoang_trang_Tuoi = 4; 
+        		int khoang_trang_Gpa = 3;
 
-        	printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
+        		printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
 
-               khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
-               11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
+               		khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
+               		11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
 
-               khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
-               25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
+               		khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
+               		25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
 
-               khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
-               					   (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
-               12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
-               							(ConTro->Tuoi < 100 ? 2 : 3)), "", 
+               		khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
+               				    (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
+               		12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
+               					 (ConTro->Tuoi < 100 ? 2 : 3)), "", 
 
-        	   khoang_trang_Gpa + 3, ConTro->Gpa,
-        	   khoang_trang_Gpa, ""); 
+        	   	khoang_trang_Gpa + 3, ConTro->Gpa,
+        	   	khoang_trang_Gpa, ""); 
 
                
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    			printf("+-----------+-------------------------+------------+---------+\n");
 
 		}
 		ConTro = ConTro->Next;
@@ -144,7 +144,7 @@ void InMaxGpa(float max, CauTrucTroNganh* Nganh)
 	if(p == false)
 	{
 		printf("|   NULL    |           NULL          |    NULL    |   NULL  |\n"); 
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    		printf("+-----------+-------------------------+------------+---------+\n");
 	}
 	return;
 }
@@ -181,27 +181,27 @@ void TimGpa(CauTrucTroNganh* Nganh)
 			p = true; 
 			int khoang_trang_TenNganh = 3; 
 			int khoang_trang_TenSV = 3; 
-        	int khoang_trang_Tuoi = 4; 
-        	int khoang_trang_Gpa = 3;
+        		int khoang_trang_Tuoi = 4; 
+        		int khoang_trang_Gpa = 3;
 
-        	printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
+        		printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
 
-               khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
-               11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
+               		khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
+               		11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
 
-               khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
-               25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
+               		khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
+               		25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
 
-               khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
-               					   (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
-               12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
-               							(ConTro->Tuoi < 100 ? 2 : 3)), "", 
+               		khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
+               				    (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
+               		12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
+               					 (ConTro->Tuoi < 100 ? 2 : 3)), "", 
 
-        	   khoang_trang_Gpa + 3, ConTro->Gpa,
-        	   khoang_trang_Gpa, ""); 
+        	   	khoang_trang_Gpa + 3, ConTro->Gpa,
+        	   	khoang_trang_Gpa, ""); 
 
                
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    			printf("+-----------+-------------------------+------------+---------+\n");
 
 		}
 		ConTro = ConTro->Next;
@@ -236,27 +236,27 @@ void TimTenSV(CauTrucTroNganh* Nganh)
 			p = true; 
 			int khoang_trang_TenNganh = 3; 
 			int khoang_trang_TenSV = 3; 
-        	int khoang_trang_Tuoi = 4; 
-        	int khoang_trang_Gpa = 3;
+        		int khoang_trang_Tuoi = 4; 
+        		int khoang_trang_Gpa = 3;
 
-        	printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
+        		printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
 
-               khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
-               11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
+               		khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
+               		11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
 
-               khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
-               25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
+               		khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
+              		25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
 
-               khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
-               					   (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
-               12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
-               							(ConTro->Tuoi < 100 ? 2 : 3)), "", 
+              		khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
+               				    (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
+               		12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
+               					 (ConTro->Tuoi < 100 ? 2 : 3)), "", 
 
-        	   khoang_trang_Gpa + 3, ConTro->Gpa,
-        	   khoang_trang_Gpa, ""); 
+        	   	khoang_trang_Gpa + 3, ConTro->Gpa,
+        	   	khoang_trang_Gpa, ""); 
 
                
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    			printf("+-----------+-------------------------+------------+---------+\n");
 
 		}
 		ConTro = ConTro->Next;
@@ -285,26 +285,26 @@ void TimTuoi(CauTrucTroNganh* Nganh)
 			p = true; 
 			int khoang_trang_TenNganh = 3; 
 			int khoang_trang_TenSV = 3; 
-        	int khoang_trang_Tuoi = 4; 
-        	int khoang_trang_Gpa = 3;
+        		int khoang_trang_Tuoi = 4; 
+        		int khoang_trang_Gpa = 3;
 
-        	printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
+        		printf("|%*s%*s|%*s%*s|%*d%*s|%*.1f%*s|\n", 
 
-               khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
-               11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
+               		khoang_trang_TenNganh + (int) strlen(ConTro->TenNganh), ConTro->TenNganh,
+               		11 - khoang_trang_TenNganh - (int) strlen(ConTro->TenNganh), "", 
 
-               khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
-               25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
+               		khoang_trang_TenSV + (int) strlen(ConTro->TenSV), ConTro->TenSV, 
+               		25 - khoang_trang_TenSV - (int) strlen(ConTro->TenSV), "", 
 
-               khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
-               					   (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
-               12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
-               							(ConTro->Tuoi < 100 ? 2 : 3)), "", 
+               		khoang_trang_Tuoi + (ConTro->Tuoi < 10 ? 1 : 
+               				    (ConTro->Tuoi < 100 ? 2 : 3)), ConTro->Tuoi, 
+               		12 - khoang_trang_Tuoi - (ConTro->Tuoi < 10 ? 1:
+               					 (ConTro->Tuoi < 100 ? 2 : 3)), "", 
 
-        	   khoang_trang_Gpa + 3, ConTro->Gpa,
-        	   khoang_trang_Gpa, ""); 
+        	   	khoang_trang_Gpa + 3, ConTro->Gpa,
+        	   	khoang_trang_Gpa, ""); 
      
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    			printf("+-----------+-------------------------+------------+---------+\n");
 
 		}
 		ConTro = ConTro->Next;
