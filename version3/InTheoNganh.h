@@ -33,9 +33,9 @@ void InTheoNganh(CauTrucTroNganh Nganh[SL_Nganh])
 void InNganh(CauTrucTroNganh* Nganh)
 {
 	// In tiêu đề bảng
-    printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+    	printf("+-----------+-------------------------+------------+---------+\n");
+    	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 	
 	if(Nganh->Dau == NULL)
 	{
