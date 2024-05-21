@@ -43,8 +43,8 @@ void InMinGpa(float min, CauTrucTroNganh* Nganh)
 {
 	bool p = false; 
 	printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+    	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 
 	SinhVien* ConTro = Nganh->Dau;
 	while(ConTro != NULL)
@@ -104,8 +104,8 @@ void InMaxGpa(float max, CauTrucTroNganh* Nganh)
 {
 	bool p = false; 
 	printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+    	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 
 	SinhVien* ConTro = Nganh->Dau;
 	while(ConTro != NULL)
@@ -170,8 +170,8 @@ void TimGpa(CauTrucTroNganh* Nganh)
 
 	bool p = false; 
 	printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 
 	SinhVien* ConTro = Nganh->Dau;
 	while(ConTro != NULL)
@@ -210,7 +210,7 @@ void TimGpa(CauTrucTroNganh* Nganh)
 	if(p == false)
 	{
 		printf("|   NULL    |           NULL          |    NULL    |   NULL  |\n"); 
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    		printf("+-----------+-------------------------+------------+---------+\n");
 	}
 	return;
 }
@@ -225,8 +225,8 @@ void TimTenSV(CauTrucTroNganh* Nganh)
 
 	bool p = false; 
 	printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+    	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 
 	SinhVien* ConTro = Nganh->Dau;
 	while(ConTro != NULL)
@@ -264,7 +264,7 @@ void TimTenSV(CauTrucTroNganh* Nganh)
 	if(p == false)
 	{
 		printf("|   NULL    |           NULL          |    NULL    |   NULL  |\n"); 
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    		printf("+-----------+-------------------------+------------+---------+\n");
 	}
 	return;
 }
@@ -275,8 +275,8 @@ void TimTuoi(CauTrucTroNganh* Nganh)
 	printf("Tuoi: ");
 	int n; scanf("%d", &n);
 	printf("+-----------+-------------------------+------------+---------+\n");
-    printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
-    printf("+-----------+-------------------------+------------+---------+\n");
+   	printf("|   NGANH   |           TEN           |    TUOI    |   GPA   |\n"); 
+    	printf("+-----------+-------------------------+------------+---------+\n");
 	SinhVien* ConTro = Nganh->Dau;
 	while(ConTro != NULL)
 	{
@@ -312,7 +312,7 @@ void TimTuoi(CauTrucTroNganh* Nganh)
 	if(p == false)
 	{
 		printf("|   NULL    |           NULL          |    NULL    |   NULL  |\n"); 
-    	printf("+-----------+-------------------------+------------+---------+\n");
+    		printf("+-----------+-------------------------+------------+---------+\n");
 	}
 	return;
 }
